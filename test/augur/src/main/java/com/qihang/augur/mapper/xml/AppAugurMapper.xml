@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qihang.augur.mapper.augur.AppAugurMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.qihang.augur.entity.augur.AppAugur">
+        <id column="augur_id" property="augurId" />
+        <result column="augur_name" property="augurName" />
+        <result column="augur_grade" property="augurGrade" />
+        <result column="augur_adept_genre" property="augurAdeptGenre" />
+        <result column="augur_adept_incident" property="augurAdeptIncident" />
+        <result column="augur_cost" property="augurCost" />
+        <result column="augur_describe" property="augurDescribe" />
+        <result column="consulting_number" property="consultingNumber" />
+    </resultMap>
+
+</mapper>
